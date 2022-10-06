@@ -1,0 +1,28 @@
+@import './common.scss';
+@import './home.scss';
+@import './reward.scss';
+@import './copy.scss';
+
+:root {
+    // brand colors
+    --c-brand: #1e84e4; // #3aa675
+    --c-brand-light: #228cf0; // #349469;
+    --content-width: 900px;
+    --search-input-width: 10rem !important;
+}
+
+html.dark {
+    // brand colors
+    --c-brand: #1890ff;
+    --c-brand-light: #228cf0;
+}
+
+
+::selection{background: var(--c-brand); color: white; /* Safari */}
+::-moz-selection{background: var(--c-brand); color: white; /* Firefox */ }
+
+// 表格
+thead th {
+    background-color: var(--c-bg-light);
+    white-space: nowrap;
+}

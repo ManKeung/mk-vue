@@ -1,0 +1,40 @@
+.sidebar::-webkit-scrollbar, body::-webkit-scrollbar {
+    width: 6px;
+    height: 50px;
+}
+
+.sidebar::-webkit-scrollbar-thumb,
+.sidebar::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    height: 80px;
+    min-height: 50px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: hsla(0,0%,52.9%, .4);
+    border-radius: 6px;
+}
+
+body::-webkit-scrollbar-track {
+    background: hsla(0,0%,52.9%,.1);
+}
+
+.sidebar:hover::-webkit-scrollbar-track {
+    background: hsla(0,0%,52.9%,.1);
+}
+
+.sidebar:hover::-webkit-scrollbar-thumb {
+    // background: hsla(0,0%,52.9%, .4);
+    background-color: var(--c-brand);
+}
+
+.search-box {
+
+    input {
+        border-radius: 5px !important;
+    }
+}

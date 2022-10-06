@@ -1,0 +1,6 @@
+// 修复拷贝样式
+button.copy.pure.copied::after {
+    display: inline-block;
+    color: white;
+    white-space: nowrap;
+}
