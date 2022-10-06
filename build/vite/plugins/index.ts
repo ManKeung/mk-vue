@@ -3,9 +3,10 @@
  * @Author: Mankeung
  * @Date: 2022-09-26 15:32:00
  * @LastEditors: Mankeung
- * @LastEditTime: 2022-10-05 17:19:26
+ * @LastEditTime: 2022-10-07 00:26:39
  */
 
+import { PluginOption } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import vueJsx from '@vitejs/plugin-vue-jsx'
 import restart from './restart'
@@ -18,13 +19,13 @@ import icon from './icon'
 import externals from './externals'
 import cdn from '../cdn'
 import mock from './mock'
-import visualizer from './visualizer'
 import compression from './compression'
 import progress from './progress'
+import visualizer from './visualizer'
 import { ANALYSIS } from '../../constant'
 
-export default (conf: any): any => {
-    const vitePlugins: any = [
+export default (conf: any): PluginOption[] => {
+    const vitePlugins: PluginOption = [
         vue(),
         vueJsx({
             transformOn: true,
@@ -52,7 +53,7 @@ export default (conf: any): any => {
     if (conf.VITE_APP_ENV === 'dev') vitePlugins.push(restart())
     if (conf.VITE_APP_MOCK === 'ON') vitePlugins.push(mock(conf))
     if (ANALYSIS) vitePlugins.push(visualizer())
-    if (conf.VITE_APP_COMPRESS) vitePlugins.push(compression(conf))
+    if (conf.VITE_APP_COMPRESS) vitePlugins.push(...compression(conf))
 
     return vitePlugins
 }

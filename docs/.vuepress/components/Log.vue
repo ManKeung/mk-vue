@@ -16,6 +16,19 @@ import { ref } from 'vue'
 
 const list = ref([
     {
+        title: '1.0.1',
+        time: '2022-10-07',
+        data: [
+            {
+                head: {
+                    title: 'bug',
+                    type: 'bug'
+                },
+                desc: '生产环境打包报错修复。'
+            }
+        ]
+    },
+    {
         title: '1.0.0',
         time: '2022-10-05',
         data: [
@@ -27,7 +40,7 @@ const list = ref([
                 desc: 'vite + vue + ts 项目基础搭建v1.0.0发布。'
             }
         ]
-    }
+    },
 ])
 </script>
 

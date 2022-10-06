@@ -3,12 +3,13 @@
  * @Author: Mankeung
  * @Date: 2022-09-26 21:35:52
  * @LastEditors: Mankeung
- * @LastEditTime: 2022-10-05 18:11:50
+ * @LastEditTime: 2022-10-07 00:25:08
  */
 
+import { BuildOptions } from 'vite'
 import { OUT_DIR as outDir, ASSETS_DIR as assetsDir, CHUNKS_SIZE as chunkSizeWarningLimit } from '../constant'
 
-export default(conf: any) => ({
+export default (conf: any): BuildOptions => ({
     outDir,
     assetsDir,
     sourcemap: conf.VITE_BUILD_SOURCEMAP === 'ON',
@@ -19,6 +20,5 @@ export default(conf: any) => ({
         }
     },
     minify: 'terser',
-    brotliSize: false,
     chunkSizeWarningLimit
 })

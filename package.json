@@ -1,7 +1,7 @@
 {
     "name": "mk-vue",
     "private": true,
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "vite + vue + ts项目基础配置",
     "warName": "vite",
     "homepage": "https://mankeung.github.io/docs/mk-vue",
