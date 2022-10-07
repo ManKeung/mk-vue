@@ -16,6 +16,26 @@ import { ref } from 'vue'
 
 const list = ref([
     {
+        title: '功能优化',
+        time: '2022-10-07',
+        data: [
+            {
+                head: {
+                    title: '优化',
+                    type: 'opt'
+                },
+                desc: 'px2rem时PX转px<a href="https://mankeung.github.io/docs/mk-vue/config/vite.html#css" title="查看">查看详情</a>。'
+            },
+            {
+                head: {
+                    title: '新增',
+                    type: 'add'
+                },
+                desc: '新增取消请求工具说明<a href="https://mankeung.github.io/docs/mk-vue/api/tools/cancel.html" title="查看">点击查看</a>。'
+            },
+        ]
+    },
+    {
         title: '1.0.1',
         time: '2022-10-07',
         data: [

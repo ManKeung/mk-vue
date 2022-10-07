@@ -52,6 +52,10 @@
 
 ### 小技巧
 
+::: danger 注意
+当运行`pnpm lint:prettier`命令时，会自动把`PX`单位转为`px`，你可以在`.prettierignore`添加`*.scss *.css *.less`
+:::
+
 如果你开启了`px2rem`，但是有的不需要转换，你可以在写`px`单位时大写，如：`PX`这时就不会转换成`rem`，你也可以在上面代码`px2rem.ts`配置里`selectorBlackList`里添加选择器，默认配置不转换的选择器为`.px`。
 
 ## build

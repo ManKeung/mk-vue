@@ -3,7 +3,7 @@
  * @Author: Mankeung
  * @Date: 2022-10-05 19:10:55
  * @LastEditors: Mankeung
- * @LastEditTime: 2022-10-05 21:41:10
+ * @LastEditTime: 2022-10-07 17:30:28
  */
 
 export default [
@@ -29,6 +29,7 @@ export default [
             '/api/tools/mitt.md',
             '/api/tools/hotkeys.md',
             '/api/tools/xss.md',
+            '/api/tools/cancel.md',
         ]
     }
 ]
