@@ -3,7 +3,7 @@
  * @Author: Mankeung
  * @Date: 2022-09-26 23:25:31
  * @LastEditors: Mankeung
- * @LastEditTime: 2022-09-28 00:03:37
+ * @LastEditTime: 2022-10-07 17:43:09
  */
 
 import { App } from 'vue'
@@ -29,7 +29,7 @@ router.beforeEach((_to, _from, next) => {
 		showSpinner: false
 	})
 	NProgress.start()
-
+	window.$mk.utils.cancel()
 	next()
 })
 
