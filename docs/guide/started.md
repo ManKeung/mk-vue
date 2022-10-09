@@ -12,7 +12,7 @@
 
 ## 安装
 
-[在线运行](https://stackblitz.com/github/mankeung/mk-vue?terminal=dev)
+[📦 CodeSandbox](https://codesandbox.io/s/github/mankeung/mk-vue?file=/README.md) | [⚡ StackBlitz](https://stackblitz.com/github/mankeung/mk-vue?file=README.md)
 
 <CodeGroup>
 <CodeGroupItem title="github">

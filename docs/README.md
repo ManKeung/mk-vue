@@ -34,11 +34,11 @@ footerHtml: true
 
 <h2 class="mk-title">项目推荐</h2>
 <div class="mk-links">
-    <a class="mk-item" href="https://mankeung.github.io/docs" target="_blank" title="个人在线文档，前端学习记录。">
+    <a class="mk-item" href="https://mankeung.github.io/docs/mk-data/" target="_blank" title="个人在线文档，前端学习记录。">
         <img src="/docs.png">
         <h1>docs</h1>
     </a>
-    <a class="mk-item" href="https://mankeung.github.io/mview-ui" target="_blank" title="mView UI uni-app框架，工作项目中常用组件和工具提高开发效率。">
+    <a class="mk-item" href="https://mankeung.github.io/docs/mview-ui/" target="_blank" title="mView UI uni-app框架，工作项目中常用组件和工具提高开发效率。">
         <img src="/mview.png">
         <h1>mView</h1>
     </a>
