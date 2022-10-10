@@ -3,7 +3,7 @@
  * @Author: Mankeung
  * @Date: 2022-09-26 15:32:00
  * @LastEditors: Mankeung
- * @LastEditTime: 2022-10-10 13:00:05
+ * @LastEditTime: 2022-10-10 21:26:57
  */
 
 import { PluginOption } from 'vite'
@@ -38,8 +38,7 @@ export default (conf: any): PluginOption[] => {
         components(),
         banner(),
         icon(),
-        progress(),
-        inspector()
+        progress()
     ]
 
     if (conf.VITE_APP_CDN === 'ON') {
@@ -53,6 +52,7 @@ export default (conf: any): PluginOption[] => {
     }
 
     if (conf.VITE_APP_ENV === 'dev') vitePlugins.push(restart())
+    if (conf.VITE_APP_ENV === 'dev') vitePlugins.push(inspector())
     if (conf.VITE_APP_MOCK === 'ON') vitePlugins.push(mock(conf))
     if (ANALYSIS) vitePlugins.push(visualizer())
     if (conf.VITE_APP_COMPRESS) vitePlugins.push(...compression(conf))
