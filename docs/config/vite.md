@@ -94,4 +94,4 @@
 
 + [vite-plugin-progress](https://www.npmjs.com/package/vite-plugin-progress)，作用：构建显示进度条。
 
-+ [vite-plugin-vue-inspector](https://www.npmjs.com/package/vite-plugin-vue-inspector)，作用：点击UI自动定位到代码行能力，配置切换快捷键`ctrl + shift`切换。
++ [vite-plugin-vue-inspector](https://www.npmjs.com/package/vite-plugin-vue-inspector)，作用：点击页面元素，自动打开本地IDE并跳转到对应的Vue组件，类似于Vue DevTools的Open component in editor功能，配置切换快捷键`ctrl + shift`切换。

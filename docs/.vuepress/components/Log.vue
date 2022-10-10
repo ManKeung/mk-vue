@@ -24,7 +24,7 @@ const list = ref([
                     title: '新增',
                     type: 'add'
                 },
-                desc: '点击UI自动定位到代码行能力'
+                desc: 'vite-plugin-vue-inspector的功能是点击页面元素，自动打开本地IDE并跳转到对应的Vue组件，类似于Vue DevTools的 Open component in editor功能。'
             }
         ]
     },
