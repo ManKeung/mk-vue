@@ -3,7 +3,7 @@
  * @Author: Mankeung
  * @Date: 2022-09-26 15:32:00
  * @LastEditors: Mankeung
- * @LastEditTime: 2022-10-07 00:26:39
+ * @LastEditTime: 2022-10-10 13:00:05
  */
 
 import { PluginOption } from 'vite'
@@ -23,6 +23,7 @@ import compression from './compression'
 import progress from './progress'
 import visualizer from './visualizer'
 import { ANALYSIS } from '../../constant'
+import inspector from './inspector'
 
 export default (conf: any): PluginOption[] => {
     const vitePlugins: PluginOption = [
@@ -37,7 +38,8 @@ export default (conf: any): PluginOption[] => {
         components(),
         banner(),
         icon(),
-        progress()
+        progress(),
+        inspector()
     ]
 
     if (conf.VITE_APP_CDN === 'ON') {

@@ -16,6 +16,19 @@ import { ref } from 'vue'
 
 const list = ref([
     {
+        title: '1.0.2',
+        time: '2022-10-10',
+        data: [
+            {
+                head: {
+                    title: '新增',
+                    type: 'add'
+                },
+                desc: '点击UI自动定位到代码行能力'
+            }
+        ]
+    },
+    {
         title: '功能优化',
         time: '2022-10-07',
         data: [

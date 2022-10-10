@@ -1,7 +1,7 @@
 {
     "name": "mk-vue",
     "private": true,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "vite + vue + ts项目基础配置",
     "warName": "vite",
     "homepage": "https://mankeung.github.io/docs/mk-vue",
@@ -99,6 +99,7 @@
         "vite-plugin-resolve-externals": "^0.2.2",
         "vite-plugin-restart": "^0.2.0",
         "vite-plugin-svg-icons": "^2.0.1",
+        "vite-plugin-vue-inspector": "^1.1.3",
         "vue-tsc": "^0.40.4",
         "vuepress": "2.0.0-beta.51",
         "vuepress-plugin-copy-code2": "2.0.0-beta.104",
