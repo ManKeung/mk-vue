@@ -22,7 +22,17 @@
         height: 80px;
         background-color: #f9f9f9;
         margin: 2px 0;
-        color: var(--c-text-light);
+        color: var(--ifm-color-primary);
+        transition: 0.35s;
+
+        &:hover {
+            transform: translateY(-10px);
+            background-color: var(--c-brand);
+            color: white;
+            // react
+            // background-color: var(--ifm-color-primary);
+            // color: var(--ifm-font-color-base-inverse);
+        }
 
         >img {
             width: 50px;
@@ -47,6 +57,25 @@
     &-item {
         background-color: #1e2228;
         // color: var(--c-text-light);
+
+        &:hover {
+            background-color: #08090a;
+            color: var(--c-brand)
+        }
+    }
+}
+
+body[data-theme=dark] {
+    .mk {
+        &-item {
+            background-color: #1e2228;
+            color: white;
+
+            &:hover {
+                background-color: #08090a;
+                color: var(--ifm-color-primary);
+            }
+        }
     }
 }
 
