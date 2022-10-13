@@ -1,4 +1,4 @@
-## 代码规范
+## 功能
 
 使用[husky](https://github.com/typicode/husky)和[@commitlint/cli](https://commitlint.js.org/)来约束代码，统一团队的代码规范。
 

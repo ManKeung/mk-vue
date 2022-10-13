@@ -1,13 +1,13 @@
 # vite
 
 ::: tip 提示
-更多关于[vite配置请看官网]()，这里只是简单介绍本模板的配置信息。
+更多关于[vite配置请看官网](https://cn.vitejs.dev/)，这里只是简单介绍本模板的配置信息。
 :::
 
 ## 常量
 
 ::: details 点击查看详情
-@[code{9-22} ts](@/build/constant.ts)
+@[code{9-40} ts](@/build/constant.ts)
 :::
 
 ## 基础配置

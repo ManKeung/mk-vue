@@ -102,7 +102,7 @@ console.log(import.meta.env.VITE_APP_ENV) // 'dev'
 + 生产环境配置如下代码：
 
 ::: details 点击查看详情
-@[code ini](@/.env.test)
+@[code ini](@/.env.prod)
 :::
 
 ## pnpm preview
